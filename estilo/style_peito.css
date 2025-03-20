@@ -6,26 +6,28 @@
 }
 
 body{
-    background-color: gray;
+    background-color: gray;      
 }
 
-header{
-    background-color: yellow;
-    min-height: 150px;
-    padding-top: 40px;
-}
-
-header > h1{
-    color: rgb(166, 234, 166);
-    font-family: none;
-    font-weight: normal;
+body > h1{
+    font-family:none;
     text-align: center;
+    font-weight: normal;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.33);
     font-size: 3em;
-    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
-div{
+body > div{
+    text-align: center;
+    margin: 10px;
+}
+
+div > img{
+    margin: 10px;
+}
+
+div#voltar{
     text-align: center;
     font-size: 1.5em;
     display: block;
@@ -42,7 +44,6 @@ a{
     text-decoration: none;
 }
 
-div:hover{
+div#voltar:hover{
     background-color: aquamarine;
 }
-
