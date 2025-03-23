@@ -6,30 +6,29 @@
 }
 
 body{
-    background-color: gray;
+    background-image: linear-gradient(to top, #9b5d5d, #550606);
+    height: 100vh;
+    width: 100vw;
 }
 
-header{
-    background-color: yellow;
-    min-height: 150px;
-    padding-top: 40px;
-}
 
-header > h1{
-    color: rgb(166, 234, 166);
+
+ h1{
+    color: rgb(184, 190, 196);
     font-family: none;
     font-weight: normal;
     text-align: center;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.33);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.885);
     font-size: 3em;
-    margin-bottom: 20px;
+    margin: 50px 50px;
 }
 
 div{
+    
     text-align: center;
     font-size: 1.5em;
     display: block;
-    background-color: blue;
+    background-color: rgb(184, 190, 196);
     margin: 15px auto;
     height: 35px;
     width: 150px;
@@ -38,8 +37,10 @@ div{
 }
 
 a{
+    
     color: black;
     text-decoration: none;
+    
 }
 
 div:hover{

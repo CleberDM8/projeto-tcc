@@ -45,7 +45,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #550606cb url(../imagens/tijolo.jpg) no-repeat;
+    background: #550606cb url(../imagens/) no-repeat;
     background-size: cover;
     height: 200px;
 }
@@ -116,7 +116,7 @@ form > input[type= submit] {
 }
 
 form > input[type= submit]:hover {
-    background-color: #550606cb;
+    background-color: rgba(85, 6, 6, 0.796);
 }
 
 form > a.botao {
@@ -127,7 +127,7 @@ form > a.botao {
     height: 40px;
     margin-top: 5px;
     padding-top: 10px;
-    background-color: #7e0707cb;
+    background-color: rgba(126, 7, 7, 0.796);
     color: #0f1ef0;
     border-radius: 5px;
     text-decoration: none;
