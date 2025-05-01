@@ -5,25 +5,31 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="estilo/style_menu.css">
+        <link rel="stylesheet" href="estilo/media-query-menu.css">
 
         <title>Menu</title>
     </head>
     <body>
-        
-            <h1>GYM HELP</h1>
-        
-        <main>
-                <div>
-                    <a href="peito.html" rel="next">
-                        <p>peito</p>
-                    </a>
-                </div>
-            <div>
-                <p>costas</p>
+        <h1>GYM HELP</h1>
+        <div class="container">
+            <div class="column">
+                <button class="button"> <a href="peito.html">Peito</a></button>
+                <button class="button">Triceps</button>
+                <button class="button">Ombro</button>
             </div>
-            <div>
-                <p>biceps</p>
+            <div class="column">
+                <button class="button">Costas</button>
+                <button class="button">Biceps</button>
+                <button class="button">Antebraço</button>
             </div>
-        </main>
+            <div class="column">
+                <button class="button">Quadriceps</button>
+                <button class="button">Gluteo</button>
+                <button class="button">Panturrilha</button>
+            </div>
+        </div>
+        <div class="bottom-button">
+            <button class="button"><a href="index.html">Sair</a></button>
+        </div>
     </body>
 </html>

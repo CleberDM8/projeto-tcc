@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* versao mobile */
+
+
+    @media (max-width: 600px) {
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+        
+            .container {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+        
+            .column {
+                width: 90%;
+
+            }
+        
+            .button,
+            .bottom-button {
+                width: 100%;
+                
+            }
+        }
+    }
+
